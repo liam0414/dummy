@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Data Structures Multiple Choice Questions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #444;
+            margin-top: 30px;
+        }
+        ol {
+            margin-bottom: 30px;
+        }
+        li {
+            margin-bottom: 15px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Python Data Structures Multiple Choice Questions</h1>
+
+    <h2>Lists</h2>
+    <ol>
+        <li>
+            Which method is used to add an element to the end of a list?
+            <div class="options">
+                a) list.add()<br>
+                b) list.append()<br>
+                c) list.insert()<br>
+                d) list.extend()
+            </div>
+        </li>
+        <li>
+            What is the output of [1, 2, 3] + [4, 5, 6]?
+            <div class="options">
+                a) [1, 2, 3, 4, 5, 6]<br>
+                b) [[1, 2, 3], [4, 5, 6]]<br>
+                c) [5, 7, 9]<br>
+                d) Error
+            </div>
+        </li>
+        <li>
+            How do you remove the first occurrence of value 'x' from list 'my_list'?
+            <div class="options">
+                a) my_list.remove('x')<br>
+                b) my_list.pop('x')<br>
+                c) my_list.delete('x')<br>
+                d) del my_list['x']
+            </div>
+        </li>
+        <li>
+            What is the time complexity of accessing an element in a list by its index?
+            <div class="options">
+                a) O(1)<br>
+                b) O(n)<br>
+                c) O(log n)<br>
+                d) O(n^2)
+            </div>
+        </li>
+        <li>
+            Which of the following will sort a list 'my_list' in descending order?
+            <div class="options">
+                a) my_list.sort(reverse=True)<br>
+                b) sorted(my_list, reverse=True)<br>
+                c) my_list.reverse()<br>
+                d) Both a and b
+            </div>
+        </li>
+    </ol>
+
+    <h2>Dictionaries</h2>
+    <ol start="6">
+        <li>
+            How do you create a dictionary with keys 'a', 'b', 'c' all with value 0?
+            <div class="options">
+                a) dict('a'=0, 'b'=0, 'c'=0)<br>
+                b) {'a': 0, 'b': 0, 'c': 0}<br>
+                c) dict.fromkeys(['a', 'b', 'c'], 0)<br>
+                d) Both b and c
+            </div>
+        </li>
+        <li>
+            What happens if you try to access a key that doesn't exist in a dictionary?
+            <div class="options">
+                a) Returns None<br>
+                b) Raises a KeyError<br>
+                c) Returns an empty string<br>
+                d) Creates a new key-value pair with None as the value
+            </div>
+        </li>
+        <li>
+            Which method removes all items from a dictionary?
+            <div class="options">
+                a) dict.remove_all()<br>
+                b) dict.clear()<br>
+                c) dict.delete()<br>
+                d) dict = {}
+            </div>
+        </li>
+        <li>
+            What is the output of list({"a": 1, "b": 2, "c": 3}.keys())?
+            <div class="options">
+                a) ["a", "b", "c"]<br>
+                b) [1, 2, 3]<br>
+                c) [("a", 1), ("b", 2), ("c", 3)]<br>
+                d) The order is not guaranteed
+            </div>
+        </li>
+        <li>
+            How can you merge two dictionaries in Python 3.9+?
+            <div class="options">
+                a) dict1.update(dict2)<br>
+                b) dict1 | dict2<br>
+                c) dict1.merge(dict2)<br>
+                d) Both a and b
+            </div>
+        </li>
+    </ol>
+
+    <h2>Sets</h2>
+    <ol start="11">
+        <li>
+            Which of the following is not a valid way to create an empty set?
+            <div class="options">
+                a) set()<br>
+                b) {}<br>
+                c) set([])<br>
+                d) frozenset()
+            </div>
+        </li>
+        <li>
+            What is the output of {1, 2, 3} & {3, 4, 5}?
+            <div class="options">
+                a) {1, 2, 3, 4, 5}<br>
+                b) {3}<br>
+                c) {1, 2, 4, 5}<br>
+                d) {3, 3}
+            </div>
+        </li>
+        <li>
+            Which method removes an element from a set without raising an error if the element is not present?
+            <div class="options">
+                a) remove()<br>
+                b) discard()<br>
+                c) pop()<br>
+                d) delete()
+            </div>
+        </li>
+        <li>
+            What is the time complexity of checking if an element is in a set?
+            <div class="options">
+                a) O(1) on average<br>
+                b) O(n)<br>
+                c) O(log n)<br>
+                d) O(n^2)
+            </div>
+        </li>
+        <li>
+            Which of the following is true about sets in Python?
+            <div class="options">
+                a) They can contain duplicate elements<br>
+                b) They are ordered<br>
+                c) They can contain mutable elements like lists<br>
+                d) They are unordered and do not allow duplicates
+            </div>
+        </li>
+    </ol>
+
+    <h2>Tuples</h2>
+    <ol start="16">
+        <li>
+            Which of the following creates a tuple with a single element?
+            <div class="options">
+                a) (1)<br>
+                b) (1,)<br>
+                c) 1,<br>
+                d) Both b and c
+            </div>
+        </li>
+        <li>
+            What is the output of (1, 2, 3) + (4, 5, 6)?
+            <div class="options">
+                a) (1, 2, 3, 4, 5, 6)<br>
+                b) ((1, 2, 3), (4, 5, 6))<br>
+                c) (5, 7, 9)<br>
+                d) Error
+            </div>
+        </li>
+        <li>
+            Which of the following is true about tuples?
+            <div class="options">
+                a) They are mutable<br>
+                b) They can be used as dictionary keys<br>
+                c) They cannot contain mutable objects<br>
+                d) They cannot be nested
+            </div>
+        </li>
+        <li>
+            What is the correct way to unpack the tuple (1, 2, 3) into three variables?
+            <div class="options">
+                a) a, b, c = (1, 2, 3)<br>
+                b) a = (1, 2, 3)[0]; b = (1, 2, 3)[1]; c = (1, 2, 3)[2]<br>
+                c) a, b, c = 1, 2, 3<br>
+                d) Both a and c
+            </div>
+        </li>
+        <li>
+            Which method returns the number of times a value appears in a tuple?
+            <div class="options">
+                a) tuple.count()<br>
+                b) tuple.index()<br>
+                c) tuple.find()<br>
+                d) tuple.occurrences()
+            </div>
+        </li>
+    </ol>
+    <ol start="21">
+        <li>What is the main difference between a list and a tuple in Python?</li>
+        <li>How do you create an empty dictionary?</li>
+        <li>What method would you use to add an element to a set?</li>
+        <li>Can you have duplicate elements in a list? What about in a set?</li>
+        <li>How do you access a value in a dictionary using its key?</li>
+        <li>What is the syntax for creating a tuple with a single element?</li>
+        <li>How can you remove an item from a list by its value?</li>
+        <li>What happens if you try to access a key that doesn't exist in a dictionary?</li>
+        <li>How do you check if an element exists in a set?</li>
+        <li>What is the difference between list.append() and list.extend()?</li>
+        <li>How can you convert a list to a set?</li>
+        <li>What is the purpose of the dict.get() method?</li>
+        <li>How do you iterate over key-value pairs in a dictionary?</li>
+        <li>Can you modify elements in a tuple? Why or why not?</li>
+        <li>What is the difference between set.remove() and set.discard()?</li>
+        <li>How do you sort a list in reverse order?</li>
+        <li>What is a frozen set and how does it differ from a regular set?</li>
+        <li>How can you merge two dictionaries in Python 3.9+?</li>
+        <li>What method would you use to remove all elements from a list?</li>
+        <li>How do you create a shallow copy of a list?</li>
+    </ol>
+</body>
+</html>
